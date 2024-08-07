@@ -31,3 +31,15 @@ a = b;
 b = c;
 
 console.log( `Now the new value of a is ${a}, whereas the value of b is ${b}` );
+
+// variable naming conventions 
+
+// Give meaningful names for your variables so that others can know what's in them
+// Variable names cannot be reserved js keywords e.g. string
+// Variables cannot start with numbers or have spaces in between 
+// Valid names can only have _, $, letters, 
+// Use camelCase for variable naming 
+
+let myName,
+  therapistFinder,
+  theRapistFinder;
